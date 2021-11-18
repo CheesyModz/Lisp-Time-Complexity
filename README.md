@@ -28,6 +28,8 @@ to
 8. Type `plot 'output.dat' using 1:2 with lines title 'aref', '' using 1:3 with lines title 'find'`
 
 # Output
+The graphs that are outputed have spikes, thoses are when the cpu is being used by other things causing a spike
+
 Elt Time complexity of elements in the list and not in the list
 ![efficiency-plot-elt](https://user-images.githubusercontent.com/49135331/142468430-77b90a3d-181e-4f14-b8f1-7310e9ac8bed.png) 
 ![efficiency-plot-my-elt](https://user-images.githubusercontent.com/49135331/142468418-4eb3c5e3-4307-4936-bd01-ecc077053b27.png)
