@@ -41,7 +41,7 @@ run time, real time, % of CPU, and # of processor cycles."
 	       (car (cadddr ,g)))))) ; # of processor cycles
 	     
 (defun generate-points ()
-  (with-open-file (s "C:/Users/pokem/Desktop/Gary's Folder/School Stuff/sems3/CPS305/lispstick/CPS305/Lab04/output.dat" :direction :output :if-exists :supersede)
+  (with-open-file (s "C:/output.dat" :direction :output :if-exists :supersede)
     (do* ((init 1)
 	  (incr 1000)
 	  (lim 40000)
@@ -57,6 +57,6 @@ run time, real time, % of CPU, and # of processor cycles."
 	  	; elt
 	    (:+ acc1 (timef (elt x elem)))
 		; my-elt
-		(:+ acc2 (timef (my-elt y elem)))))
+	    (:+ acc2 (timef (my-elt y elem)))))
 	(format s "~a ~,8F ~,8F~%" i (/ acc1 reps) (/ acc2 reps))))))
 
