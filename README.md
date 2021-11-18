@@ -1,7 +1,8 @@
 # What does the program do
 Compares time complexity of elt and my-elt for list and linked lists.
 
-To test your own complexity of others change line 58 and line 60 in timing-graph-frwrk.lisp
+To test your own complexity of others change line 58 and line 60 in `timing-graph-frwrk.lisp`
+
 Example:
 
 Change 
